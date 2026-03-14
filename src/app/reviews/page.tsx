@@ -157,6 +157,8 @@ export default function ReviewsPage() {
           nameClassName="font-bold text-lg"
           roleClassName="text-sm opacity-75"
           testimonialClassName="text-base leading-relaxed mt-3"
+          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
+          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
@@ -217,6 +219,8 @@ export default function ReviewsPage() {
           descriptionClassName="text-lg md:text-xl mt-4"
           cardTitleClassName="text-2xl font-bold"
           cardDescriptionClassName="text-base leading-relaxed"
+          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
+          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
