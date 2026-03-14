@@ -24,13 +24,13 @@ export default function ContactPage() {
         { label: "General Junk Removal", href: "/" },
         { label: "Yard Waste Removal", href: "/" },
         { label: "Construction Cleanouts", href: "/" },
-        { label: "Get Free Quote", href: "/contact" },
+        { label: "Get Free Quote", href: "mailto:info@goneinahaul.com?subject=Free%20Quote%20Request" },
       ],
     },
     {
       title: "COMPANY",      items: [
-        { label: "About Us", href: "/" },
-        { label: "Service Area", href: "/" },
+        { label: "About Us", href: "/about" },
+        { label: "Service Area", href: "/service-area" },
         { label: "Reviews", href: "/reviews" },
         { label: "Contact", href: "/contact" },
       ],
@@ -77,13 +77,13 @@ export default function ContactPage() {
 
       <div id="contact-cta" data-section="contact-cta" className="w-full">
         <ContactText
-          text="Ready to get your space back? Call Gone in a Haul today for a free quote."
+          text="Ready to get your space back? Contact Gone in a Haul today for a free quote."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
           animationType="entrance-slide"
           buttons={[
-            { text: "Call 323-379-4301", href: "tel:+13233794301" },
-            { text: "Get Free Quote", href: "/contact" },
+            { text: "Call (951) 755-1234", href: "tel:+19517551234" },
+            { text: "Email for Free Quote", href: "mailto:info@goneinahaul.com?subject=Free%20Quote%20Request" },
           ]}
           className="w-full py-24"
           containerClassName="max-w-4xl mx-auto px-6"
@@ -117,7 +117,7 @@ export default function ContactPage() {
               id: "6",              title: "Do you offer commercial junk removal?",              content: "Yes! We handle commercial cleanouts including office furniture removal, construction debris, and large-scale hauling projects. Contact us for a custom quote on your commercial project."},
           ]}
           buttons={[
-            { text: "Still have questions? Call us!", href: "tel:+13233794301" },
+            { text: "Still have questions? Call us!", href: "tel:+19517551234" },
           ]}
           buttonAnimation="slide-up"
           className="w-full"
