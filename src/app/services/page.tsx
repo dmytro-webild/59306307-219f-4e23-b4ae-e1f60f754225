@@ -112,7 +112,7 @@ export default function ServicesPage() {
       <div id="services-detailed" data-section="services-detailed">
         <FeatureCardNineteen
           tag="OUR SERVICES"
-          tagIcon={Zap} as any
+          tagIcon={Zap}
           title="Complete Junk Removal Solutions"
           description="From residential clutter to heavy commercial debris, we're equipped to handle any junk removal challenge across the Inland Empire."
           textboxLayout="default"
@@ -212,7 +212,7 @@ export default function ServicesPage() {
           faqsContainerClassName="grid md:grid-cols-2 gap-8 mt-12"
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
-          accordionContentClassName="text-base leading-relaxed" as any
+          accordionContentClassName="text-base leading-relaxed"
         />
       </div>
 
