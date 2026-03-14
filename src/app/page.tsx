@@ -29,7 +29,7 @@ export default function HomePage() {
         { label: "General Junk Removal", href: "/services#general-junk" },
         { label: "Yard Waste Removal", href: "/services#yard-waste" },
         { label: "Construction Cleanouts", href: "/services#construction" },
-        { label: "Get Free Quote", href: "/contact" },
+        { label: "Get Free Quote", href: "mailto:info@goneinahaul.com?subject=Free%20Quote%20Request" },
       ],
     },
     {
@@ -86,7 +86,7 @@ export default function HomePage() {
           avatarText="Serving the Inland Empire since 2015"
           buttons={[
             { text: "Call Now", href: "tel:+19517551234" },
-            { text: "Get Free Quote", href: "/contact" },
+            { text: "Get Free Quote", href: "mailto:info@goneinahaul.com?subject=Free%20Quote%20Request" },
           ]}
           buttonAnimation="slide-up"
           marqueeItems={[
@@ -129,7 +129,7 @@ export default function HomePage() {
               tag: "CONSTRUCTION",              title: "Construction & Renovation Cleanouts",              subtitle: "Commercial & Residential Projects",              description: "Drywall, concrete, bricks, lumber, and heavy construction debris. Licensed and experienced in large-scale cleanout projects.",              imageSrc: "http://img.b2bpic.net/free-photo/cracked-weathered-concrete-wall-texture-gray-orange-tones-showing-age-decay_84443-55485.jpg?_wi=1",              imageAlt: "Construction debris removal service",              buttons: [{ text: "Learn More", href: "/services#construction" }],
             },
           ]}
-          buttons={[{ text: "Get Free Quote", href: "/contact" }]}
+          buttons={[{ text: "Get Free Quote", href: "mailto:info@goneinahaul.com?subject=Free%20Quote%20Request" }]}
           buttonAnimation="slide-up"
           className="w-full py-20"
           containerClassName="max-w-7xl mx-auto px-6"
@@ -167,7 +167,7 @@ export default function HomePage() {
               id: "local",              value: "Local",              title: "Locally Owned",              items: ["Community focused", "Inland Empire based", "Supporting local"],
             },
           ]}
-          buttons={[{ text: "Call Now", href: "tel:+19517551234" }]}
+          buttons={[{ text: "Call (951) 755-1234", href: "tel:+19517551234" }]}
           buttonAnimation="slide-up"
           className="w-full py-20"
           containerClassName="max-w-7xl mx-auto px-6"
@@ -285,8 +285,8 @@ export default function HomePage() {
           useInvertedBackground={false}
           animationType="entrance-slide"
           buttons={[
-            { text: "Call 323-379-4301", href: "tel:+13233794301" },
-            { text: "Get Free Quote", href: "/contact" },
+            { text: "Call (951) 755-1234", href: "tel:+19517551234" },
+            { text: "Get Free Quote", href: "mailto:info@goneinahaul.com?subject=Free%20Quote%20Request" },
           ]}
           className="w-full py-24"
           containerClassName="max-w-4xl mx-auto px-6"
