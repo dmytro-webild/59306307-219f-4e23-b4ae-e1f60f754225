@@ -25,8 +25,7 @@ export default function HomePage() {
 
   const footerColumns = [
     {
-      title: "SERVICES",
-      items: [
+      title: "SERVICES",      items: [
         { label: "General Junk Removal", href: "/services#general-junk" },
         { label: "Yard Waste Removal", href: "/services#yard-waste" },
         { label: "Construction Cleanouts", href: "/services#construction" },
@@ -34,8 +33,7 @@ export default function HomePage() {
       ],
     },
     {
-      title: "COMPANY",
-      items: [
+      title: "COMPANY",      items: [
         { label: "About Us", href: "/about" },
         { label: "Service Area", href: "/service-area" },
         { label: "Reviews", href: "/reviews" },
@@ -43,8 +41,7 @@ export default function HomePage() {
       ],
     },
     {
-      title: "CONTACT",
-      items: [
+      title: "CONTACT",      items: [
         { label: "Call: (951) 755-1234", href: "tel:+19517551234" },
         { label: "Email: info@goneinahaul.com", href: "mailto:info@goneinahaul.com" },
         { label: "Hours: 6am - 6pm Daily", href: "#" },
@@ -52,8 +49,7 @@ export default function HomePage() {
       ],
     },
     {
-      title: "FOLLOW US",
-      items: [
+      title: "FOLLOW US",      items: [
         { label: "Facebook", href: "https://facebook.com/goneinahaul" },
         { label: "Instagram", href: "https://instagram.com/goneinahaul" },
         { label: "Nextdoor", href: "https://nextdoor.com" },
@@ -85,13 +81,11 @@ export default function HomePage() {
           background={{ variant: "animated-grid" }}
           avatars={[
             {
-              src: "http://img.b2bpic.net/free-photo/utility-vehicle-quiet-street-work-progress_169016-69895.jpg",
-              alt: "Gone in a Haul junk removal truck",
-            },
+              src: "http://img.b2bpic.net/free-photo/utility-vehicle-quiet-street-work-progress_169016-69895.jpg",              alt: "Gone in a Haul junk removal truck"},
           ]}
           avatarText="Serving the Inland Empire since 2015"
           buttons={[
-            { text: "Call Now (323) 379-4301", href: "tel:+13233794301" },
+            { text: "Call Now", href: "tel:+19517551234" },
             { text: "Get Free Quote", href: "/contact" },
           ]}
           buttonAnimation="slide-up"
@@ -124,33 +118,15 @@ export default function HomePage() {
           features={[
             {
               id: 1,
-              tag: "GENERAL JUNK",
-              title: "General Junk Removal",
-              subtitle: "Household Items & Miscellaneous Debris",
-              description: "From old furniture to appliances, electronics to yard items—we remove it all. One call and we handle the heavy lifting.",
-              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg?_wi=1",
-              imageAlt: "General junk removal service",
-              buttons: [{ text: "Learn More", href: "/services#general-junk" }],
+              tag: "GENERAL JUNK",              title: "General Junk Removal",              subtitle: "Household Items & Miscellaneous Debris",              description: "From old furniture to appliances, electronics to yard items—we remove it all. One call and we handle the heavy lifting.",              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg?_wi=1",              imageAlt: "General junk removal service",              buttons: [{ text: "Learn More", href: "/services#general-junk" }],
             },
             {
               id: 2,
-              tag: "YARD WASTE",
-              title: "Yard Waste & Debris",
-              subtitle: "Landscaping & Outdoor Cleanup",
-              description: "Tree branches, mulch, landscaping debris, fallen trees. We clear your yard fast and responsibly dispose of everything.",
-              imageSrc: "http://img.b2bpic.net/free-photo/volunteer-with-garbage-bag-trip-nature-cleaning-environment_169016-12173.jpg?_wi=1",
-              imageAlt: "Yard waste removal service",
-              buttons: [{ text: "Learn More", href: "/services#yard-waste" }],
+              tag: "YARD WASTE",              title: "Yard Waste & Debris",              subtitle: "Landscaping & Outdoor Cleanup",              description: "Tree branches, mulch, landscaping debris, fallen trees. We clear your yard fast and responsibly dispose of everything.",              imageSrc: "http://img.b2bpic.net/free-photo/volunteer-with-garbage-bag-trip-nature-cleaning-environment_169016-12173.jpg?_wi=1",              imageAlt: "Yard waste removal service",              buttons: [{ text: "Learn More", href: "/services#yard-waste" }],
             },
             {
               id: 3,
-              tag: "CONSTRUCTION",
-              title: "Construction & Renovation Cleanouts",
-              subtitle: "Commercial & Residential Projects",
-              description: "Drywall, concrete, bricks, lumber, and heavy construction debris. Licensed and experienced in large-scale cleanout projects.",
-              imageSrc: "http://img.b2bpic.net/free-photo/cracked-weathered-concrete-wall-texture-gray-orange-tones-showing-age-decay_84443-55485.jpg?_wi=1",
-              imageAlt: "Construction debris removal service",
-              buttons: [{ text: "Learn More", href: "/services#construction" }],
+              tag: "CONSTRUCTION",              title: "Construction & Renovation Cleanouts",              subtitle: "Commercial & Residential Projects",              description: "Drywall, concrete, bricks, lumber, and heavy construction debris. Licensed and experienced in large-scale cleanout projects.",              imageSrc: "http://img.b2bpic.net/free-photo/cracked-weathered-concrete-wall-texture-gray-orange-tones-showing-age-decay_84443-55485.jpg?_wi=1",              imageAlt: "Construction debris removal service",              buttons: [{ text: "Learn More", href: "/services#construction" }],
             },
           ]}
           buttons={[{ text: "Get Free Quote", href: "/contact" }]}
@@ -176,37 +152,22 @@ export default function HomePage() {
           animationType="slide-up"
           metrics={[
             {
-              id: "fast",
-              value: "Same-Day",
-              title: "Fast Service",
-              items: ["Same-day quotes", "Quick scheduling", "Rapid pickup & haul"],
+              id: "fast",              value: "Same-Day",              title: "Fast Service",              items: ["Same-day quotes", "Quick scheduling", "Rapid pickup & haul"],
             },
             {
-              id: "licensed",
-              value: "100%",
-              title: "Licensed & Insured",
-              items: ["Full business licensing", "Comprehensive insurance", "Professional certification"],
+              id: "licensed",              value: "100%",              title: "Licensed & Insured",              items: ["Full business licensing", "Comprehensive insurance", "Professional certification"],
             },
             {
-              id: "eco",
-              value: "Responsible",
-              title: "Eco-Friendly",
-              items: ["Proper disposal", "Recycling programs", "Environmental commitment"],
+              id: "eco",              value: "Responsible",              title: "Eco-Friendly",              items: ["Proper disposal", "Recycling programs", "Environmental commitment"],
             },
             {
-              id: "affordable",
-              value: "Transparent",
-              title: "Affordable Pricing",
-              items: ["No hidden fees", "Free quotes", "Best rates guaranteed"],
+              id: "affordable",              value: "Transparent",              title: "Affordable Pricing",              items: ["No hidden fees", "Free quotes", "Best rates guaranteed"],
             },
             {
-              id: "local",
-              value: "Local",
-              title: "Locally Owned",
-              items: ["Community focused", "Inland Empire based", "Supporting local"],
+              id: "local",              value: "Local",              title: "Locally Owned",              items: ["Community focused", "Inland Empire based", "Supporting local"],
             },
           ]}
-          buttons={[{ text: "Call (951) 755-1234", href: "tel:+19517551234" }]}
+          buttons={[{ text: "Call Now", href: "tel:+19517551234" }]}
           buttonAnimation="slide-up"
           className="w-full py-20"
           containerClassName="max-w-7xl mx-auto px-6"
@@ -226,17 +187,7 @@ export default function HomePage() {
           title="Serving the Inland Empire"
           description="We proudly serve Moreno Valley, Riverside, San Bernardino, Corona, Victorville, Ontario, Chino, Chino Hills, and surrounding cities."
           names={[
-            "Moreno Valley",
-            "Riverside",
-            "San Bernardino",
-            "Corona",
-            "Victorville",
-            "Ontario",
-            "Chino",
-            "Chino Hills",
-            "Fontana",
-            "Rancho Cucamonga",
-          ]}
+            "Moreno Valley",            "Riverside",            "San Bernardino",            "Corona",            "Victorville",            "Ontario",            "Chino",            "Chino Hills",            "Fontana",            "Rancho Cucamonga"]}
           textboxLayout="default"
           useInvertedBackground={false}
           speed={40}
@@ -262,58 +213,22 @@ export default function HomePage() {
           animationType="slide-up"
           testimonials={[
             {
-              id: "1",
-              name: "Maria Gonzalez",
-              role: "Homeowner, Moreno Valley",
-              testimonial: "Gone in a Haul came and removed everything from my garage in just 2 hours. They were professional, courteous, and the price was amazing. Highly recommend!",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-female-blazer-beauty-blonde_1139-773.jpg?_wi=1",
-              imageAlt: "Maria Gonzalez testimonial",
-              icon: Star,
+              id: "1",              name: "Maria Gonzalez",              role: "Homeowner, Moreno Valley",              testimonial: "Gone in a Haul came and removed everything from my garage in just 2 hours. They were professional, courteous, and the price was amazing. Highly recommend!",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-blazer-beauty-blonde_1139-773.jpg?_wi=1",              imageAlt: "Maria Gonzalez testimonial",              icon: Star,
             },
             {
-              id: "2",
-              name: "Robert Chen",
-              role: "Property Manager, Riverside",
-              testimonial: "We've used Gone in a Haul for several rental property cleanouts. Consistently reliable, fast, and they handle heavy debris without any issues. Great local service.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1626.jpg?_wi=1",
-              imageAlt: "Robert Chen testimonial",
-              icon: Star,
+              id: "2",              name: "Robert Chen",              role: "Property Manager, Riverside",              testimonial: "We've used Gone in a Haul for several rental property cleanouts. Consistently reliable, fast, and they handle heavy debris without any issues. Great local service.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1626.jpg?_wi=1",              imageAlt: "Robert Chen testimonial",              icon: Star,
             },
             {
-              id: "3",
-              name: "Jessica Martinez",
-              role: "Homeowner, San Bernardino",
-              testimonial: "After our renovation, we had a ton of construction debris. These guys hauled everything away efficiently and left the property spotless. Worth every penny!",
-              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-kitchen-giving-you-cup-tea-taking-break-drinking-coffee-home_1258-202678.jpg?_wi=1",
-              imageAlt: "Jessica Martinez testimonial",
-              icon: Star,
+              id: "3",              name: "Jessica Martinez",              role: "Homeowner, San Bernardino",              testimonial: "After our renovation, we had a ton of construction debris. These guys hauled everything away efficiently and left the property spotless. Worth every penny!",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-kitchen-giving-you-cup-tea-taking-break-drinking-coffee-home_1258-202678.jpg?_wi=1",              imageAlt: "Jessica Martinez testimonial",              icon: Star,
             },
             {
-              id: "4",
-              name: "David Thompson",
-              role: "Business Owner, Corona",
-              testimonial: "I called for a same-day pickup and they were there within hours. Professional crew, fair pricing, and they even recycled what they could. Five stars!",
-              imageSrc: "http://img.b2bpic.net/free-photo/pretty-woman-gesturing-thumbup-looking-camera_23-2148204641.jpg?_wi=1",
-              imageAlt: "David Thompson testimonial",
-              icon: Star,
+              id: "4",              name: "David Thompson",              role: "Business Owner, Corona",              testimonial: "I called for a same-day pickup and they were there within hours. Professional crew, fair pricing, and they even recycled what they could. Five stars!",              imageSrc: "http://img.b2bpic.net/free-photo/pretty-woman-gesturing-thumbup-looking-camera_23-2148204641.jpg?_wi=1",              imageAlt: "David Thompson testimonial",              icon: Star,
             },
             {
-              id: "5",
-              name: "Linda Reyes",
-              role: "Homeowner, Victorville",
-              testimonial: "Local company with a big heart. They treated my home with respect and got the job done fast. I've already recommended them to all my neighbors.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-female-blazer-beauty-blonde_1139-773.jpg?_wi=2",
-              imageAlt: "Linda Reyes testimonial",
-              icon: Star,
+              id: "5",              name: "Linda Reyes",              role: "Homeowner, Victorville",              testimonial: "Local company with a big heart. They treated my home with respect and got the job done fast. I've already recommended them to all my neighbors.",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-blazer-beauty-blonde_1139-773.jpg?_wi=2",              imageAlt: "Linda Reyes testimonial",              icon: Star,
             },
             {
-              id: "6",
-              name: "Michael Park",
-              role: "Contractor, Chino",
-              testimonial: "We use Gone in a Haul for all our construction cleanouts. Reliable, professional, and they always show up on time. Best junk removal company in the Inland Empire.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1626.jpg?_wi=2",
-              imageAlt: "Michael Park testimonial",
-              icon: Star,
+              id: "6",              name: "Michael Park",              role: "Contractor, Chino",              testimonial: "We use Gone in a Haul for all our construction cleanouts. Reliable, professional, and they always show up on time. Best junk removal company in the Inland Empire.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1626.jpg?_wi=2",              imageAlt: "Michael Park testimonial",              icon: Star,
             },
           ]}
           buttons={[{ text: "Read More Reviews", href: "/reviews" }]}
@@ -339,35 +254,17 @@ export default function HomePage() {
           animationType="smooth"
           faqs={[
             {
-              id: "1",
-              title: "How quickly can you pick up my junk?",
-              content: "We offer same-day service availability in most areas. Call us for a free quote and we can often schedule pickup within 24 hours. We're fast because we know you want your space back quickly.",
-            },
+              id: "1",              title: "How quickly can you pick up my junk?",              content: "We offer same-day service availability in most areas. Call us for a free quote and we can often schedule pickup within 24 hours. We're fast because we know you want your space back quickly."},
             {
-              id: "2",
-              title: "What do you charge for junk removal?",
-              content: "Our pricing is transparent and based on the volume and type of junk. We provide free quotes over the phone or at your location. There are no hidden fees—what we quote is what you pay.",
-            },
+              id: "2",              title: "What do you charge for junk removal?",              content: "Our pricing is transparent and based on the volume and type of junk. We provide free quotes over the phone or at your location. There are no hidden fees—what we quote is what you pay."},
             {
-              id: "3",
-              title: "Do you recycle or donate items?",
-              content: "Absolutely! We're committed to eco-friendly disposal. Items in good condition are donated to local charities. Recyclables are properly sorted and sent to recycling facilities. Only items that can't be reused or recycled go to the landfill.",
-            },
+              id: "3",              title: "Do you recycle or donate items?",              content: "Absolutely! We're committed to eco-friendly disposal. Items in good condition are donated to local charities. Recyclables are properly sorted and sent to recycling facilities. Only items that can't be reused or recycled go to the landfill."},
             {
-              id: "4",
-              title: "Are you licensed and insured?",
-              content: "Yes, we are fully licensed and insured. We carry comprehensive liability insurance for your protection and follow all local regulations for junk disposal and hauling.",
-            },
+              id: "4",              title: "Are you licensed and insured?",              content: "Yes, we are fully licensed and insured. We carry comprehensive liability insurance for your protection and follow all local regulations for junk disposal and hauling."},
             {
-              id: "5",
-              title: "What areas do you serve?",
-              content: "We serve the entire Inland Empire including Moreno Valley, Riverside, San Bernardino, Corona, Victorville, Ontario, Chino, and surrounding cities. Check our service area page for your specific location.",
-            },
+              id: "5",              title: "What areas do you serve?",              content: "We serve the entire Inland Empire including Moreno Valley, Riverside, San Bernardino, Corona, Victorville, Ontario, Chino, and surrounding cities. Check our service area page for your specific location."},
             {
-              id: "6",
-              title: "Do you offer commercial junk removal?",
-              content: "Yes! We handle commercial cleanouts including office furniture removal, construction debris, and large-scale hauling projects. Contact us for a custom quote on your commercial project.",
-            },
+              id: "6",              title: "Do you offer commercial junk removal?",              content: "Yes! We handle commercial cleanouts including office furniture removal, construction debris, and large-scale hauling projects. Contact us for a custom quote on your commercial project."},
           ]}
           buttons={[{ text: "Still have questions? Call us!", href: "tel:+19517551234" }]}
           buttonAnimation="slide-up"
@@ -388,7 +285,7 @@ export default function HomePage() {
           useInvertedBackground={false}
           animationType="entrance-slide"
           buttons={[
-            { text: "Call (951) 755-1234", href: "tel:+19517551234" },
+            { text: "Call 323-379-4301", href: "tel:+13233794301" },
             { text: "Get Free Quote", href: "/contact" },
           ]}
           className="w-full py-24"
