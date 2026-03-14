@@ -87,7 +87,7 @@ export default function ServicesPage() {
           ]}
           avatarText="Expert Service in Every Category"
           buttons={[
-            { text: "Call Now", href: "tel:+19517551234" },
+            { text: "Call Now (323) 379-4301", href: "tel:+13233794301" },
             { text: "Get Free Quote", href: "/contact" },
           ]}
           buttonAnimation="slide-up"
