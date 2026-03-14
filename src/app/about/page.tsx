@@ -159,7 +159,7 @@ export default function AboutPage() {
             },
           ]}
           buttons={[
-            { text: "Schedule Service", href: "/contact" },
+            { text: "Call Now (323) 379-4301", href: "tel:+13233794301" },
           ]}
           buttonAnimation="slide-up"
           className="w-full py-20"

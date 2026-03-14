@@ -86,7 +86,7 @@ export default function ContactPage() {
           useInvertedBackground={false}
           animationType="entrance-slide"
           buttons={[
-            { text: "Call (951) 755-1234", href: "tel:+19517551234" },
+            { text: "Call (323) 379-4301", href: "tel:+13233794301" },
             { text: "Get Free Quote", href: "/contact" },
           ]}
           className="w-full py-24"
