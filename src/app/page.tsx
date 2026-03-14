@@ -91,7 +91,7 @@ export default function HomePage() {
           ]}
           avatarText="Serving the Inland Empire since 2015"
           buttons={[
-            { text: "Call Now", href: "tel:+19517551234" },
+            { text: "Call Now (323) 379-4301", href: "tel:+13233794301" },
             { text: "Get Free Quote", href: "/contact" },
           ]}
           buttonAnimation="slide-up"
