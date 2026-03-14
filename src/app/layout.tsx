@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 
 const halant = Halant({
@@ -68,7 +67,7 @@ export default function RootLayout({
         <body
           className={`${halant.variable} ${inter.variable} ${lato.variable} antialiased`}
         >
-          <Tag />
+          
           {children}
           <script
               dangerouslySetInnerHTML={{
