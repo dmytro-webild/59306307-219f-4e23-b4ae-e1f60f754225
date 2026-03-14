@@ -108,8 +108,6 @@ export default function ServiceAreaPage() {
           descriptionClassName="text-lg md:text-xl mt-4"
           contentClassName="mt-12"
           logoTextClassName="text-lg font-semibold"
-          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
-          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
@@ -170,8 +168,6 @@ export default function ServiceAreaPage() {
           descriptionClassName="text-lg md:text-xl mt-4"
           cardTitleClassName="text-2xl font-bold"
           cardDescriptionClassName="text-base leading-relaxed"
-          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
-          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
@@ -229,8 +225,6 @@ export default function ServiceAreaPage() {
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
           accordionContentClassName="text-base leading-relaxed"
-          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
-          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
