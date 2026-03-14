@@ -20,8 +20,7 @@ export default function ContactPage() {
 
   const footerColumns = [
     {
-      title: "SERVICES",
-      items: [
+      title: "SERVICES",      items: [
         { label: "General Junk Removal", href: "/" },
         { label: "Yard Waste Removal", href: "/" },
         { label: "Construction Cleanouts", href: "/" },
@@ -29,8 +28,7 @@ export default function ContactPage() {
       ],
     },
     {
-      title: "COMPANY",
-      items: [
+      title: "COMPANY",      items: [
         { label: "About Us", href: "/" },
         { label: "Service Area", href: "/" },
         { label: "Reviews", href: "/reviews" },
@@ -38,8 +36,7 @@ export default function ContactPage() {
       ],
     },
     {
-      title: "CONTACT",
-      items: [
+      title: "CONTACT",      items: [
         { label: "Call: (951) 755-1234", href: "tel:+19517551234" },
         { label: "Email: info@goneinahaul.com", href: "mailto:info@goneinahaul.com" },
         { label: "Hours: 6am - 6pm Daily", href: "#" },
@@ -47,8 +44,7 @@ export default function ContactPage() {
       ],
     },
     {
-      title: "FOLLOW US",
-      items: [
+      title: "FOLLOW US",      items: [
         { label: "Facebook", href: "https://facebook.com/goneinahaul" },
         { label: "Instagram", href: "https://instagram.com/goneinahaul" },
         { label: "Nextdoor", href: "https://nextdoor.com" },
@@ -86,7 +82,7 @@ export default function ContactPage() {
           useInvertedBackground={false}
           animationType="entrance-slide"
           buttons={[
-            { text: "Call (323) 379-4301", href: "tel:+13233794301" },
+            { text: "Call 323-379-4301", href: "tel:+13233794301" },
             { text: "Get Free Quote", href: "/contact" },
           ]}
           className="w-full py-24"
@@ -108,38 +104,20 @@ export default function ContactPage() {
           animationType="smooth"
           faqs={[
             {
-              id: "1",
-              title: "How quickly can you pick up my junk?",
-              content: "We offer same-day service availability in most areas. Call us for a free quote and we can often schedule pickup within 24 hours. We're fast because we know you want your space back quickly.",
-            },
+              id: "1",              title: "How quickly can you pick up my junk?",              content: "We offer same-day service availability in most areas. Call us for a free quote and we can often schedule pickup within 24 hours. We're fast because we know you want your space back quickly."},
             {
-              id: "2",
-              title: "What do you charge for junk removal?",
-              content: "Our pricing is transparent and based on the volume and type of junk. We provide free quotes over the phone or at your location. There are no hidden fees—what we quote is what you pay.",
-            },
+              id: "2",              title: "What do you charge for junk removal?",              content: "Our pricing is transparent and based on the volume and type of junk. We provide free quotes over the phone or at your location. There are no hidden fees—what we quote is what you pay."},
             {
-              id: "3",
-              title: "Do you recycle or donate items?",
-              content: "Absolutely! We're committed to eco-friendly disposal. Items in good condition are donated to local charities. Recyclables are properly sorted and sent to recycling facilities. Only items that can't be reused or recycled go to the landfill.",
-            },
+              id: "3",              title: "Do you recycle or donate items?",              content: "Absolutely! We're committed to eco-friendly disposal. Items in good condition are donated to local charities. Recyclables are properly sorted and sent to recycling facilities. Only items that can't be reused or recycled go to the landfill."},
             {
-              id: "4",
-              title: "Are you licensed and insured?",
-              content: "Yes, we are fully licensed and insured. We carry comprehensive liability insurance for your protection and follow all local regulations for junk disposal and hauling.",
-            },
+              id: "4",              title: "Are you licensed and insured?",              content: "Yes, we are fully licensed and insured. We carry comprehensive liability insurance for your protection and follow all local regulations for junk disposal and hauling."},
             {
-              id: "5",
-              title: "What areas do you serve?",
-              content: "We serve the entire Inland Empire including Moreno Valley, Riverside, San Bernardino, Corona, Victorville, Ontario, Chino, and surrounding cities. Check our service area page for your specific location.",
-            },
+              id: "5",              title: "What areas do you serve?",              content: "We serve the entire Inland Empire including Moreno Valley, Riverside, San Bernardino, Corona, Victorville, Ontario, Chino, and surrounding cities. Check our service area page for your specific location."},
             {
-              id: "6",
-              title: "Do you offer commercial junk removal?",
-              content: "Yes! We handle commercial cleanouts including office furniture removal, construction debris, and large-scale hauling projects. Contact us for a custom quote on your commercial project.",
-            },
+              id: "6",              title: "Do you offer commercial junk removal?",              content: "Yes! We handle commercial cleanouts including office furniture removal, construction debris, and large-scale hauling projects. Contact us for a custom quote on your commercial project."},
           ]}
           buttons={[
-            { text: "Still have questions? Call us!", href: "tel:+19517551234" },
+            { text: "Still have questions? Call us!", href: "tel:+13233794301" },
           ]}
           buttonAnimation="slide-up"
           className="w-full"
