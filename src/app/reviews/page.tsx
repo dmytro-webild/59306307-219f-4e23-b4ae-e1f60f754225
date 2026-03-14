@@ -82,7 +82,7 @@ export default function ReviewsPage() {
       <div id="testimonials-reviews" data-section="testimonials-reviews" className="w-full py-20">
         <TestimonialCardTwo
           tag="CUSTOMER REVIEWS"
-          tagIcon={Star} as any
+          tagIcon={Star}
           title="What Our Customers Say"
           description="Real reviews from happy customers across the Inland Empire who trust Gone in a Haul."
           textboxLayout="default"
@@ -163,7 +163,7 @@ export default function ReviewsPage() {
       <div id="before-after" data-section="before-after" className="w-full py-20">
         <FeatureCardNineteen
           tag="COMPLETED PROJECTS"
-          tagIcon={Star} as any
+          tagIcon={Star}
           title="Before & After Gallery"
           description="See the transformation. Real jobs, real results from Gone in a Haul."
           textboxLayout="default"
