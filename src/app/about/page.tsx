@@ -7,6 +7,7 @@ import FeatureCardNineteen from "@/components/sections/feature/FeatureCardNinete
 import MetricCardSeven from "@/components/sections/metrics/MetricCardSeven";
 import TestimonialCardTwo from "@/components/sections/testimonial/TestimonialCardTwo";
 import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
+import { Briefcase, BarChart3, Heart } from "lucide-react";
 
 export default function AboutPage() {
   const navItems = [
@@ -76,7 +77,7 @@ export default function AboutPage() {
       <div id="about-story" data-section="about-story">
         <FeatureCardNineteen
           tag="OUR STORY"
-          tagIcon="Briefcase"
+          tagIcon={Briefcase}
           title="About Gone in a Haul"
           description="Founded by local entrepreneurs who believed junk removal should be fast, honest, and affordable."
           textboxLayout="default"
@@ -97,7 +98,7 @@ export default function AboutPage() {
               title: "Removing Junk, Building Community",
               subtitle: "Integrity, excellence, and environmental responsibility",
               description: "Our mission is simple: remove your junk quickly, responsibly, and at fair prices. We're committed to serving our local community with integrity and excellence. Every job is an opportunity to demonstrate why Gone in a Haul is the choice of Inland Empire residents.",
-              imageSrc: "http://img.b2bpic.net/free-photo/couple-collects-garbage-garbage-bags-park_1157-27387.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/couple-collects-garbage-garbage-bags-park_1157-27387.jpg",
               imageAlt: "before after junk removal transformation",
             },
             {
@@ -106,7 +107,7 @@ export default function AboutPage() {
               title: "Supporting the Inland Empire",
               subtitle: "Community-focused service you can trust",
               description: "As a locally-owned and operated business, we understand the Inland Empire community. We hire locally, support local charities, and reinvest in the neighborhoods we serve. Your junk removal supports real jobs and real families right here in our region.",
-              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-people-garage-sale_23-2150661450.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-people-garage-sale_23-2150661450.jpg",
               imageAlt: "garage cleared cleaned organized",
             },
           ]}
@@ -127,7 +128,7 @@ export default function AboutPage() {
       <div id="team-stats" data-section="team-stats">
         <MetricCardSeven
           tag="BY THE NUMBERS"
-          tagIcon="BarChart3"
+          tagIcon={BarChart3}
           title="Growing Every Day"
           description="Our impact on the Inland Empire community speaks for itself."
           textboxLayout="default"
@@ -178,7 +179,7 @@ export default function AboutPage() {
       <div id="testimonials-about" data-section="testimonials-about">
         <TestimonialCardTwo
           tag="CLIENT STORIES"
-          tagIcon="Heart"
+          tagIcon={Heart}
           title="Why People Trust Gone in a Haul"
           description="Real stories from real customers in our community."
           textboxLayout="default"
@@ -190,7 +191,7 @@ export default function AboutPage() {
               name: "Maria Gonzalez",
               role: "Homeowner, Moreno Valley",
               testimonial: "Gone in a Haul came and removed everything from my garage in just 2 hours. They were professional, courteous, and the price was amazing. This company truly cares about the community.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-female-blazer-beauty-blonde_1139-773.jpg?_wi=3",
+              imageSrc: "http://img.b2bpic.net/free-photo/young-female-blazer-beauty-blonde_1139-773.jpg",
               imageAlt: "Maria Gonzalez testimonial",
             },
             {
@@ -198,7 +199,7 @@ export default function AboutPage() {
               name: "Robert Chen",
               role: "Property Manager, Riverside",
               testimonial: "We've used Gone in a Haul for several rental property cleanouts. Consistently reliable, fast, and they handle heavy debris without any issues. Best service in the Inland Empire.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1626.jpg?_wi=3",
+              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1626.jpg",
               imageAlt: "Robert Chen testimonial",
             },
             {
@@ -206,7 +207,7 @@ export default function AboutPage() {
               name: "Jessica Martinez",
               role: "Homeowner, San Bernardino",
               testimonial: "After our renovation, we had a ton of construction debris. These guys hauled everything away efficiently and left the property spotless. They're locally owned and it shows.",
-              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-kitchen-giving-you-cup-tea-taking-break-drinking-coffee-home_1258-202678.jpg?_wi=2",
+              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-kitchen-giving-you-cup-tea-taking-break-drinking-coffee-home_1258-202678.jpg",
               imageAlt: "Jessica Martinez testimonial",
             },
           ]}
