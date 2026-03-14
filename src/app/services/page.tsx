@@ -158,6 +158,8 @@ export default function ServicesPage() {
           descriptionClassName="text-lg md:text-xl mt-4"
           cardTitleClassName="text-2xl font-bold"
           cardDescriptionClassName="text-base leading-relaxed"
+          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
+          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
@@ -213,6 +215,8 @@ export default function ServicesPage() {
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
           accordionContentClassName="text-base leading-relaxed"
+          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
+          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 

@@ -162,6 +162,8 @@ export default function HomePage() {
           descriptionClassName="text-lg md:text-xl mt-4"
           cardTitleClassName="text-2xl font-bold"
           cardDescriptionClassName="text-base leading-relaxed"
+          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
+          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
@@ -217,6 +219,8 @@ export default function HomePage() {
           metricTitleClassName="text-xl font-bold mt-2"
           featuresClassName="space-y-2 text-sm"
           featureItemClassName="flex items-center gap-2"
+          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
+          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
@@ -250,6 +254,8 @@ export default function HomePage() {
           descriptionClassName="text-lg md:text-xl mt-4"
           contentClassName="mt-12"
           logoTextClassName="text-lg font-semibold"
+          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
+          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
@@ -329,6 +335,8 @@ export default function HomePage() {
           nameClassName="font-bold text-lg"
           roleClassName="text-sm opacity-75"
           testimonialClassName="text-base leading-relaxed mt-3"
+          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
+          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
@@ -384,6 +392,8 @@ export default function HomePage() {
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
           accordionContentClassName="text-base leading-relaxed"
+          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
+          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
