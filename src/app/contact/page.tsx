@@ -151,7 +151,7 @@ export default function ContactPage() {
           faqsContainerClassName="grid md:grid-cols-2 gap-8 mt-12"
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
-          accordionContentClassName="text-base leading-relaxed"
+          accordionContentClassName="text-base leading-relaxed" as any
         />
       </div>
 
