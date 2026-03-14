@@ -100,7 +100,6 @@ export default function ContactPage() {
       <div id="contact-faq" data-section="contact-faq" className="w-full py-20">
         <FaqDouble
           tag="COMMON QUESTIONS"
-          tagIcon={HelpCircle}
           title="Frequently Asked Questions"
           description="Have questions about our junk removal service? We've got answers."
           textboxLayout="default"
@@ -151,7 +150,7 @@ export default function ContactPage() {
           faqsContainerClassName="grid md:grid-cols-2 gap-8 mt-12"
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
-          accordionContentClassName="text-base leading-relaxed" as any
+          accordionContentClassName="text-base leading-relaxed"
         />
       </div>
 

@@ -116,7 +116,7 @@ export default function HomePage() {
       <div id="services-overview" data-section="services-overview">
         <FeatureCardNineteen
           tag="OUR SERVICES"
-          tagIcon={Zap} as any
+          tagIcon={Zap}
           title="Professional Junk Removal Services"
           description="We handle all types of junk removal across the Inland Empire. Fast, reliable, and hassle-free."
           textboxLayout="default"
@@ -168,7 +168,7 @@ export default function HomePage() {
       <div id="why-choose-us" data-section="why-choose-us">
         <MetricCardSeven
           tag="TRUSTED BY LOCALS"
-          tagIcon={Award} as any
+          tagIcon={Award}
           title="Why Choose Gone in a Haul?"
           description="Local expertise, professional service, and unbeatable value. Here's what sets us apart."
           textboxLayout="default"
@@ -256,7 +256,7 @@ export default function HomePage() {
       <div id="testimonials-home" data-section="testimonials-home">
         <TestimonialCardTwo
           tag="CUSTOMER REVIEWS"
-          tagIcon={Star} as any
+          tagIcon={Star}
           title="What Our Customers Say"
           description="Real reviews from happy customers across the Inland Empire."
           textboxLayout="default"
@@ -334,7 +334,7 @@ export default function HomePage() {
 
       <div id="faq-home" data-section="faq-home">
         <FaqDouble
-          tag="COMMON QUESTIONS" as any
+          tag="COMMON QUESTIONS"
           title="Frequently Asked Questions"
           description="Have questions about our junk removal service? We've got answers."
           textboxLayout="default"
@@ -383,7 +383,7 @@ export default function HomePage() {
           faqsContainerClassName="grid md:grid-cols-2 gap-8 mt-12"
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
-          accordionContentClassName="text-base leading-relaxed" as any
+          accordionContentClassName="text-base leading-relaxed"
         />
       </div>
 
