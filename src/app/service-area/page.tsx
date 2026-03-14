@@ -224,7 +224,7 @@ export default function ServiceAreaPage() {
           faqsContainerClassName="grid md:grid-cols-2 gap-8 mt-12"
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
-          accordionContentClassName="text-base leading-relaxed" as any
+          accordionContentClassName="text-base leading-relaxed"
         />
       </div>
 
