@@ -7,6 +7,7 @@ import SocialProofOne from "@/components/sections/socialProof/SocialProofOne";
 import FeatureCardNineteen from "@/components/sections/feature/FeatureCardNineteen";
 import FaqDouble from "@/components/sections/faq/FaqDouble";
 import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
+import { MapPin } from "lucide-react";
 
 export default function ServiceAreaPage() {
   const navItems = [
@@ -113,7 +114,7 @@ export default function ServiceAreaPage() {
       <div id="service-area-details" data-section="service-area-details">
         <FeatureCardNineteen
           tag="LOCAL EXPERTISE"
-          tagIcon="MapPin"
+          tagIcon={MapPin}
           title="Why We Know the Inland Empire"
           description="Every city has unique needs. We understand local regulations, neighborhood dynamics, and what makes the Inland Empire special."
           textboxLayout="default"
@@ -149,7 +150,7 @@ export default function ServiceAreaPage() {
               title: "Wide Regional Coverage",
               subtitle: "All-Inland Empire service and delivery",
               description: "From Victorville in the north to Ontario and Chino in the west, Gone in a Haul covers the entire Inland Empire. We service all these areas with same-day response when available.",
-              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg?_wi=3",
+              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg",
               imageAlt: "professional service team",
               buttons: [
                 { text: "Service My Area", href: "/contact" },
@@ -223,7 +224,7 @@ export default function ServiceAreaPage() {
           faqsContainerClassName="grid md:grid-cols-2 gap-8 mt-12"
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
-          accordionContentClassName="text-base leading-relaxed"
+          accordionContentClassName="text-base leading-relaxed" as any
         />
       </div>
 

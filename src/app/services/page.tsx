@@ -78,7 +78,7 @@ export default function ServicesPage() {
         <HeroCentered
           title="Junk Removal Services"
           description="Comprehensive junk removal solutions for residential and commercial clients across the Inland Empire. We handle all types of debris with professionalism and eco-friendly disposal."
-          background={{ variant: "grid" }}
+          background={{ variant: "animated-grid" }}
           avatars={[
             {
               src: "http://img.b2bpic.net/free-photo/utility-vehicle-quiet-street-work-progress_169016-69895.jpg",
@@ -112,7 +112,7 @@ export default function ServicesPage() {
       <div id="services-detailed" data-section="services-detailed">
         <FeatureCardNineteen
           tag="OUR SERVICES"
-          tagIcon={Zap}
+          tagIcon={Zap} as any
           title="Complete Junk Removal Solutions"
           description="From residential clutter to heavy commercial debris, we're equipped to handle any junk removal challenge across the Inland Empire."
           textboxLayout="default"
@@ -124,7 +124,7 @@ export default function ServicesPage() {
               title: "General Junk Removal",
               subtitle: "Household Items & Miscellaneous Debris",
               description: "From old furniture to appliances, electronics to yard items—we remove it all. Our experienced team handles every piece with care, ensuring your home or office is left spotless. One call and we handle the heavy lifting, no job too big or small.",
-              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg?_wi=2",
+              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg",
               imageAlt: "General junk removal service",
               buttons: [{ text: "Learn More", href: "/contact" }],
             },
@@ -134,7 +134,7 @@ export default function ServicesPage() {
               title: "Yard Waste & Debris",
               subtitle: "Landscaping & Outdoor Cleanup",
               description: "Tree branches, mulch, landscaping debris, fallen trees, and seasonal cleanup. We clear your yard fast and responsibly dispose of everything. Our crew can handle large-scale yard projects and ensure proper disposal of all organic material.",
-              imageSrc: "http://img.b2bpic.net/free-photo/volunteer-with-garbage-bag-trip-nature-cleaning-environment_169016-12173.jpg?_wi=2",
+              imageSrc: "http://img.b2bpic.net/free-photo/volunteer-with-garbage-bag-trip-nature-cleaning-environment_169016-12173.jpg",
               imageAlt: "Yard waste removal service",
               buttons: [{ text: "Learn More", href: "/contact" }],
             },
@@ -144,7 +144,7 @@ export default function ServicesPage() {
               title: "Construction & Renovation Cleanouts",
               subtitle: "Commercial & Residential Projects",
               description: "Drywall, concrete, bricks, lumber, and heavy construction debris. Licensed and experienced in large-scale cleanout projects. We manage construction sites efficiently, removing debris safely and keeping your project on schedule.",
-              imageSrc: "http://img.b2bpic.net/free-photo/cracked-weathered-concrete-wall-texture-gray-orange-tones-showing-age-decay_84443-55485.jpg?_wi=2",
+              imageSrc: "http://img.b2bpic.net/free-photo/cracked-weathered-concrete-wall-texture-gray-orange-tones-showing-age-decay_84443-55485.jpg",
               imageAlt: "Construction debris removal service",
               buttons: [{ text: "Learn More", href: "/contact" }],
             },
@@ -212,7 +212,7 @@ export default function ServicesPage() {
           faqsContainerClassName="grid md:grid-cols-2 gap-8 mt-12"
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
-          accordionContentClassName="text-base leading-relaxed"
+          accordionContentClassName="text-base leading-relaxed" as any
         />
       </div>
 
