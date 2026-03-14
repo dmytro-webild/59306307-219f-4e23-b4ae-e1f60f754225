@@ -82,7 +82,7 @@ export default function HomePage() {
         <HeroCentered
           title="Fast. Reliable. Local."
           description="Junk removal done right in Moreno Valley, Riverside, San Bernardino and across the Inland Empire. Same-day service, transparent pricing, eco-friendly disposal."
-          background={{ variant: "grid" }}
+          background={{ variant: "animated-grid" }}
           avatars={[
             {
               src: "http://img.b2bpic.net/free-photo/utility-vehicle-quiet-street-work-progress_169016-69895.jpg",
@@ -116,7 +116,7 @@ export default function HomePage() {
       <div id="services-overview" data-section="services-overview">
         <FeatureCardNineteen
           tag="OUR SERVICES"
-          tagIcon={Zap}
+          tagIcon={Zap} as any
           title="Professional Junk Removal Services"
           description="We handle all types of junk removal across the Inland Empire. Fast, reliable, and hassle-free."
           textboxLayout="default"
@@ -128,7 +128,7 @@ export default function HomePage() {
               title: "General Junk Removal",
               subtitle: "Household Items & Miscellaneous Debris",
               description: "From old furniture to appliances, electronics to yard items—we remove it all. One call and we handle the heavy lifting.",
-              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg",
               imageAlt: "General junk removal service",
               buttons: [{ text: "Learn More", href: "/services#general-junk" }],
             },
@@ -138,7 +138,7 @@ export default function HomePage() {
               title: "Yard Waste & Debris",
               subtitle: "Landscaping & Outdoor Cleanup",
               description: "Tree branches, mulch, landscaping debris, fallen trees. We clear your yard fast and responsibly dispose of everything.",
-              imageSrc: "http://img.b2bpic.net/free-photo/volunteer-with-garbage-bag-trip-nature-cleaning-environment_169016-12173.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/volunteer-with-garbage-bag-trip-nature-cleaning-environment_169016-12173.jpg",
               imageAlt: "Yard waste removal service",
               buttons: [{ text: "Learn More", href: "/services#yard-waste" }],
             },
@@ -148,7 +148,7 @@ export default function HomePage() {
               title: "Construction & Renovation Cleanouts",
               subtitle: "Commercial & Residential Projects",
               description: "Drywall, concrete, bricks, lumber, and heavy construction debris. Licensed and experienced in large-scale cleanout projects.",
-              imageSrc: "http://img.b2bpic.net/free-photo/cracked-weathered-concrete-wall-texture-gray-orange-tones-showing-age-decay_84443-55485.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/cracked-weathered-concrete-wall-texture-gray-orange-tones-showing-age-decay_84443-55485.jpg",
               imageAlt: "Construction debris removal service",
               buttons: [{ text: "Learn More", href: "/services#construction" }],
             },
@@ -168,7 +168,7 @@ export default function HomePage() {
       <div id="why-choose-us" data-section="why-choose-us">
         <MetricCardSeven
           tag="TRUSTED BY LOCALS"
-          tagIcon={Award}
+          tagIcon={Award} as any
           title="Why Choose Gone in a Haul?"
           description="Local expertise, professional service, and unbeatable value. Here's what sets us apart."
           textboxLayout="default"
@@ -256,7 +256,7 @@ export default function HomePage() {
       <div id="testimonials-home" data-section="testimonials-home">
         <TestimonialCardTwo
           tag="CUSTOMER REVIEWS"
-          tagIcon={Star}
+          tagIcon={Star} as any
           title="What Our Customers Say"
           description="Real reviews from happy customers across the Inland Empire."
           textboxLayout="default"
@@ -268,7 +268,7 @@ export default function HomePage() {
               name: "Maria Gonzalez",
               role: "Homeowner, Moreno Valley",
               testimonial: "Gone in a Haul came and removed everything from my garage in just 2 hours. They were professional, courteous, and the price was amazing. Highly recommend!",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-female-blazer-beauty-blonde_1139-773.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/young-female-blazer-beauty-blonde_1139-773.jpg",
               imageAlt: "Maria Gonzalez testimonial",
               icon: Star,
             },
@@ -277,7 +277,7 @@ export default function HomePage() {
               name: "Robert Chen",
               role: "Property Manager, Riverside",
               testimonial: "We've used Gone in a Haul for several rental property cleanouts. Consistently reliable, fast, and they handle heavy debris without any issues. Great local service.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1626.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1626.jpg",
               imageAlt: "Robert Chen testimonial",
               icon: Star,
             },
@@ -286,7 +286,7 @@ export default function HomePage() {
               name: "Jessica Martinez",
               role: "Homeowner, San Bernardino",
               testimonial: "After our renovation, we had a ton of construction debris. These guys hauled everything away efficiently and left the property spotless. Worth every penny!",
-              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-kitchen-giving-you-cup-tea-taking-break-drinking-coffee-home_1258-202678.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-kitchen-giving-you-cup-tea-taking-break-drinking-coffee-home_1258-202678.jpg",
               imageAlt: "Jessica Martinez testimonial",
               icon: Star,
             },
@@ -295,7 +295,7 @@ export default function HomePage() {
               name: "David Thompson",
               role: "Business Owner, Corona",
               testimonial: "I called for a same-day pickup and they were there within hours. Professional crew, fair pricing, and they even recycled what they could. Five stars!",
-              imageSrc: "http://img.b2bpic.net/free-photo/pretty-woman-gesturing-thumbup-looking-camera_23-2148204641.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/pretty-woman-gesturing-thumbup-looking-camera_23-2148204641.jpg",
               imageAlt: "David Thompson testimonial",
               icon: Star,
             },
@@ -304,7 +304,7 @@ export default function HomePage() {
               name: "Linda Reyes",
               role: "Homeowner, Victorville",
               testimonial: "Local company with a big heart. They treated my home with respect and got the job done fast. I've already recommended them to all my neighbors.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-female-blazer-beauty-blonde_1139-773.jpg?_wi=2",
+              imageSrc: "http://img.b2bpic.net/free-photo/young-female-blazer-beauty-blonde_1139-773.jpg",
               imageAlt: "Linda Reyes testimonial",
               icon: Star,
             },
@@ -313,7 +313,7 @@ export default function HomePage() {
               name: "Michael Park",
               role: "Contractor, Chino",
               testimonial: "We use Gone in a Haul for all our construction cleanouts. Reliable, professional, and they always show up on time. Best junk removal company in the Inland Empire.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1626.jpg?_wi=2",
+              imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1626.jpg",
               imageAlt: "Michael Park testimonial",
               icon: Star,
             },
@@ -334,7 +334,7 @@ export default function HomePage() {
 
       <div id="faq-home" data-section="faq-home">
         <FaqDouble
-          tag="COMMON QUESTIONS"
+          tag="COMMON QUESTIONS" as any
           title="Frequently Asked Questions"
           description="Have questions about our junk removal service? We've got answers."
           textboxLayout="default"
@@ -383,7 +383,7 @@ export default function HomePage() {
           faqsContainerClassName="grid md:grid-cols-2 gap-8 mt-12"
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
-          accordionContentClassName="text-base leading-relaxed"
+          accordionContentClassName="text-base leading-relaxed" as any
         />
       </div>
 
