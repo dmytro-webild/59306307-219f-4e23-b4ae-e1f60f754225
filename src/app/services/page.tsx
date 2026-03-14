@@ -21,8 +21,7 @@ export default function ServicesPage() {
 
   const footerColumns = [
     {
-      title: "SERVICES",
-      items: [
+      title: "SERVICES",      items: [
         { label: "General Junk Removal", href: "/services#general-junk" },
         { label: "Yard Waste Removal", href: "/services#yard-waste" },
         { label: "Construction Cleanouts", href: "/services#construction" },
@@ -30,8 +29,7 @@ export default function ServicesPage() {
       ],
     },
     {
-      title: "COMPANY",
-      items: [
+      title: "COMPANY",      items: [
         { label: "About Us", href: "/about" },
         { label: "Service Area", href: "/service-area" },
         { label: "Reviews", href: "/reviews" },
@@ -39,8 +37,7 @@ export default function ServicesPage() {
       ],
     },
     {
-      title: "CONTACT",
-      items: [
+      title: "CONTACT",      items: [
         { label: "Call: (951) 755-1234", href: "tel:+19517551234" },
         { label: "Email: info@goneinahaul.com", href: "mailto:info@goneinahaul.com" },
         { label: "Hours: 6am - 6pm Daily", href: "#" },
@@ -48,8 +45,7 @@ export default function ServicesPage() {
       ],
     },
     {
-      title: "FOLLOW US",
-      items: [
+      title: "FOLLOW US",      items: [
         { label: "Facebook", href: "https://facebook.com/goneinahaul" },
         { label: "Instagram", href: "https://instagram.com/goneinahaul" },
         { label: "Nextdoor", href: "https://nextdoor.com" },
@@ -81,13 +77,11 @@ export default function ServicesPage() {
           background={{ variant: "animated-grid" }}
           avatars={[
             {
-              src: "http://img.b2bpic.net/free-photo/utility-vehicle-quiet-street-work-progress_169016-69895.jpg",
-              alt: "Gone in a Haul junk removal truck",
-            },
+              src: "http://img.b2bpic.net/free-photo/utility-vehicle-quiet-street-work-progress_169016-69895.jpg",              alt: "Gone in a Haul junk removal truck"},
           ]}
           avatarText="Expert Service in Every Category"
           buttons={[
-            { text: "Call Now (323) 379-4301", href: "tel:+13233794301" },
+            { text: "Call Now", href: "tel:+19517551234" },
             { text: "Get Free Quote", href: "/contact" },
           ]}
           buttonAnimation="slide-up"
@@ -120,33 +114,15 @@ export default function ServicesPage() {
           features={[
             {
               id: 1,
-              tag: "GENERAL JUNK",
-              title: "General Junk Removal",
-              subtitle: "Household Items & Miscellaneous Debris",
-              description: "From old furniture to appliances, electronics to yard items—we remove it all. Our experienced team handles every piece with care, ensuring your home or office is left spotless. One call and we handle the heavy lifting, no job too big or small.",
-              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg?_wi=3",
-              imageAlt: "General junk removal service",
-              buttons: [{ text: "Learn More", href: "/contact" }],
+              tag: "GENERAL JUNK",              title: "General Junk Removal",              subtitle: "Household Items & Miscellaneous Debris",              description: "From old furniture to appliances, electronics to yard items—we remove it all. Our experienced team handles every piece with care, ensuring your home or office is left spotless. One call and we handle the heavy lifting, no job too big or small.",              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg?_wi=3",              imageAlt: "General junk removal service",              buttons: [{ text: "Learn More", href: "/contact" }],
             },
             {
               id: 2,
-              tag: "YARD WASTE",
-              title: "Yard Waste & Debris",
-              subtitle: "Landscaping & Outdoor Cleanup",
-              description: "Tree branches, mulch, landscaping debris, fallen trees, and seasonal cleanup. We clear your yard fast and responsibly dispose of everything. Our crew can handle large-scale yard projects and ensure proper disposal of all organic material.",
-              imageSrc: "http://img.b2bpic.net/free-photo/volunteer-with-garbage-bag-trip-nature-cleaning-environment_169016-12173.jpg?_wi=2",
-              imageAlt: "Yard waste removal service",
-              buttons: [{ text: "Learn More", href: "/contact" }],
+              tag: "YARD WASTE",              title: "Yard Waste & Debris",              subtitle: "Landscaping & Outdoor Cleanup",              description: "Tree branches, mulch, landscaping debris, fallen trees, and seasonal cleanup. We clear your yard fast and responsibly dispose of everything. Our crew can handle large-scale yard projects and ensure proper disposal of all organic material.",              imageSrc: "http://img.b2bpic.net/free-photo/volunteer-with-garbage-bag-trip-nature-cleaning-environment_169016-12173.jpg?_wi=2",              imageAlt: "Yard waste removal service",              buttons: [{ text: "Learn More", href: "/contact" }],
             },
             {
               id: 3,
-              tag: "CONSTRUCTION",
-              title: "Construction & Renovation Cleanouts",
-              subtitle: "Commercial & Residential Projects",
-              description: "Drywall, concrete, bricks, lumber, and heavy construction debris. Licensed and experienced in large-scale cleanout projects. We manage construction sites efficiently, removing debris safely and keeping your project on schedule.",
-              imageSrc: "http://img.b2bpic.net/free-photo/cracked-weathered-concrete-wall-texture-gray-orange-tones-showing-age-decay_84443-55485.jpg?_wi=2",
-              imageAlt: "Construction debris removal service",
-              buttons: [{ text: "Learn More", href: "/contact" }],
+              tag: "CONSTRUCTION",              title: "Construction & Renovation Cleanouts",              subtitle: "Commercial & Residential Projects",              description: "Drywall, concrete, bricks, lumber, and heavy construction debris. Licensed and experienced in large-scale cleanout projects. We manage construction sites efficiently, removing debris safely and keeping your project on schedule.",              imageSrc: "http://img.b2bpic.net/free-photo/cracked-weathered-concrete-wall-texture-gray-orange-tones-showing-age-decay_84443-55485.jpg?_wi=2",              imageAlt: "Construction debris removal service",              buttons: [{ text: "Learn More", href: "/contact" }],
             },
           ]}
           buttons={[{ text: "Get Free Quote", href: "/contact" }]}
@@ -170,35 +146,17 @@ export default function ServicesPage() {
           animationType="smooth"
           faqs={[
             {
-              id: "1",
-              title: "What's included in general junk removal?",
-              content: "General junk removal includes furniture, appliances, electronics, household items, and miscellaneous debris. We load, transport, and properly dispose of everything. Items in good condition may be donated or recycled when possible.",
-            },
+              id: "1",              title: "What's included in general junk removal?",              content: "General junk removal includes furniture, appliances, electronics, household items, and miscellaneous debris. We load, transport, and properly dispose of everything. Items in good condition may be donated or recycled when possible."},
             {
-              id: "2",
-              title: "How do you handle construction debris?",
-              content: "We have specialized equipment and expertise for handling heavy construction materials. Our team safely removes drywall, concrete, bricks, lumber, and other debris. We follow all safety regulations and environmental guidelines.",
-            },
+              id: "2",              title: "How do you handle construction debris?",              content: "We have specialized equipment and expertise for handling heavy construction materials. Our team safely removes drywall, concrete, bricks, lumber, and other debris. We follow all safety regulations and environmental guidelines."},
             {
-              id: "3",
-              title: "Can you remove yard waste and landscaping debris?",
-              content: "Yes, we handle all types of yard waste including tree branches, mulch, leaves, grass clippings, and fallen trees. We ensure proper disposal and can coordinate with landscaping services if needed.",
-            },
+              id: "3",              title: "Can you remove yard waste and landscaping debris?",              content: "Yes, we handle all types of yard waste including tree branches, mulch, leaves, grass clippings, and fallen trees. We ensure proper disposal and can coordinate with landscaping services if needed."},
             {
-              id: "4",
-              title: "Do you provide emergency junk removal?",
-              content: "Absolutely! We offer emergency same-day service in most areas. Call us immediately and we'll prioritize your request. Emergency rates may apply for after-hours service.",
-            },
+              id: "4",              title: "Do you provide emergency junk removal?",              content: "Absolutely! We offer emergency same-day service in most areas. Call us immediately and we'll prioritize your request. Emergency rates may apply for after-hours service."},
             {
-              id: "5",
-              title: "How much does it cost?",
-              content: "Pricing is based on the volume and type of junk. We provide free quotes over the phone or at your location. Most jobs are charged per load or by the volume of material being removed.",
-            },
+              id: "5",              title: "How much does it cost?",              content: "Pricing is based on the volume and type of junk. We provide free quotes over the phone or at your location. Most jobs are charged per load or by the volume of material being removed."},
             {
-              id: "6",
-              title: "What payment methods do you accept?",
-              content: "We accept cash, credit cards, and checks. Payment is typically due upon completion of service. We offer transparent pricing with no hidden fees or surprise charges.",
-            },
+              id: "6",              title: "What payment methods do you accept?",              content: "We accept cash, credit cards, and checks. Payment is typically due upon completion of service. We offer transparent pricing with no hidden fees or surprise charges."},
           ]}
           buttons={[{ text: "Get Free Quote Now", href: "/contact" }]}
           buttonAnimation="slide-up"
