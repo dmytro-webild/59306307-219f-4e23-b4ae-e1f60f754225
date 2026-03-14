@@ -104,8 +104,6 @@ export default function ServiceAreaPage() {
           className="w-full py-20"
           containerClassName="max-w-7xl mx-auto px-6"
           textBoxClassName="text-center mb-16"
-          titleClassName="text-4xl md:text-5xl font-extrabold"
-          descriptionClassName="text-lg md:text-xl mt-4"
           contentClassName="mt-12"
           logoTextClassName="text-lg font-semibold"
         />
@@ -164,8 +162,6 @@ export default function ServiceAreaPage() {
           className="w-full py-20"
           containerClassName="max-w-7xl mx-auto px-6"
           textBoxClassName="text-center mb-16"
-          titleClassName="text-4xl md:text-5xl font-extrabold"
-          descriptionClassName="text-lg md:text-xl mt-4"
           cardTitleClassName="text-2xl font-bold"
           cardDescriptionClassName="text-base leading-relaxed"
         />
@@ -219,8 +215,6 @@ export default function ServiceAreaPage() {
           className="w-full py-20"
           containerClassName="max-w-7xl mx-auto px-6"
           textBoxClassName="text-center mb-16"
-          titleClassName="text-4xl md:text-5xl font-extrabold"
-          descriptionClassName="text-lg md:text-xl mt-4"
           faqsContainerClassName="grid md:grid-cols-2 gap-8 mt-12"
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"

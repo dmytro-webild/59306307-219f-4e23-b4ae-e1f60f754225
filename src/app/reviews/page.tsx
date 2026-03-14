@@ -151,8 +151,6 @@ export default function ReviewsPage() {
           className="w-full"
           containerClassName="max-w-7xl mx-auto px-6"
           textBoxClassName="text-center mb-16"
-          titleClassName="text-4xl md:text-5xl font-extrabold"
-          descriptionClassName="text-lg md:text-xl mt-4"
           cardClassName="rounded-lg p-6"
           nameClassName="font-bold text-lg"
           roleClassName="text-sm opacity-75"
@@ -213,8 +211,6 @@ export default function ReviewsPage() {
           className="w-full"
           containerClassName="max-w-7xl mx-auto px-6"
           textBoxClassName="text-center mb-16"
-          titleClassName="text-4xl md:text-5xl font-extrabold"
-          descriptionClassName="text-lg md:text-xl mt-4"
           cardTitleClassName="text-2xl font-bold"
           cardDescriptionClassName="text-base leading-relaxed"
         />
