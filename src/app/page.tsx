@@ -211,14 +211,12 @@ export default function HomePage() {
           className="w-full py-20"
           containerClassName="max-w-7xl mx-auto px-6"
           textBoxClassName="text-center mb-16"
-          titleClassName="text-4xl md:text-5xl font-extrabold"
-          descriptionClassName="text-lg md:text-xl mt-4"
+          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
+          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
           valueClassName="text-3xl md:text-4xl font-bold text-primary-cta"
           metricTitleClassName="text-xl font-bold mt-2"
           featuresClassName="space-y-2 text-sm"
           featureItemClassName="flex items-center gap-2"
-          textBoxTitleClassName="text-4xl md:text-5xl font-extrabold"
-          textBoxDescriptionClassName="text-lg md:text-xl mt-4"
         />
       </div>
 
@@ -248,8 +246,6 @@ export default function HomePage() {
           className="w-full py-20"
           containerClassName="max-w-7xl mx-auto px-6"
           textBoxClassName="text-center mb-16"
-          titleClassName="text-4xl md:text-5xl font-extrabold"
-          descriptionClassName="text-lg md:text-xl mt-4"
           contentClassName="mt-12"
           logoTextClassName="text-lg font-semibold"
         />
@@ -325,8 +321,6 @@ export default function HomePage() {
           className="w-full py-20"
           containerClassName="max-w-7xl mx-auto px-6"
           textBoxClassName="text-center mb-16"
-          titleClassName="text-4xl md:text-5xl font-extrabold"
-          descriptionClassName="text-lg md:text-xl mt-4"
           cardClassName="rounded-lg p-6"
           nameClassName="font-bold text-lg"
           roleClassName="text-sm opacity-75"
@@ -380,8 +374,6 @@ export default function HomePage() {
           className="w-full py-20"
           containerClassName="max-w-7xl mx-auto px-6"
           textBoxClassName="text-center mb-16"
-          titleClassName="text-4xl md:text-5xl font-extrabold"
-          descriptionClassName="text-lg md:text-xl mt-4"
           faqsContainerClassName="grid md:grid-cols-2 gap-8 mt-12"
           accordionClassName="rounded-lg"
           accordionTitleClassName="font-bold text-lg"
